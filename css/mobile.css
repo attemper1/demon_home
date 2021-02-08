@@ -1,0 +1,80 @@
+/*mobile.css*/
+body{
+    background-image: url("../images/main_bg_mobile.jpg");
+    background-size: cover;
+}#main_header{
+    height: 60px;
+}
+.btn-toggle{
+    right: 20px; top: 20px;
+}
+.btn-toggle>img{
+    width: 30px;
+}
+#gnb .btn-close{
+    right: 20px; top: 20px;
+}
+#gnb .btn-close>img{
+    width: 30px;
+}
+#main_footer img{
+    width: 20px;
+}
+#main_footer>p{
+    font-size: 10px;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#content{
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+}
+#content>.box>img{
+    margin-top: 20px;
+    width: 300px;
+}
+#content>.box>p{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+#content>.box>ul>li{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.box>.sns>li>a>img{
+    width: 30px;
+    margin-top: 15px;
+    background: #000;
+    border: 1px solid #000;
+}
+#synop_popup{
+    height: calc(100vh - 100px);
+    top: 51%;
+    padding: 40px 20px;
+}
+#synop_popup>h2{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+#synop_popup>p{
+    font-size: 18px;
+}
+#gallery #main>figure{
+    width: 95%;
+}
+#gallery #main>figure img{
+    padding-top: 100px;
+}
+#gallery #main>ul{
+    width: 95%;
+}
+#gallery #main>ul>li{
+    width: calc(100% / 3);
+}
+.clear{
+    clear: both;
+}
