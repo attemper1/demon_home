@@ -94,12 +94,12 @@ body{
     width: 100%; height: 80px;
     background: #333;
     text-align: center;
-    position: absolute;
-    bottom: 0; left: 0;
+    clear: both;
+    position: relative;
+    padding-top: 15px;
 }
 #main_footer>.sns{
     height: 30px;
-    margin-top: 15px;
     margin-bottom: 8px;
 }
 #main_footer>.sns>li{
@@ -164,18 +164,18 @@ body{
     left: 50%; top: 50%;
     transform: translate(-50%,-50%);
     color: #333;
-    padding: 80px 100px;
+    padding: 80px;
     opacity: .9;
     display: none;
     overflow: scroll;
 }
 #synop_popup>h2{
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     text-align: center;
-    font-size: 36px;
+    font-size: 32px;
 }
 #synop_popup>p{
-    font-size: 28px;
+    font-size: 24px;
 }
 #synop_popup.show{
     display: block;

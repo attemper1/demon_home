@@ -17,6 +17,10 @@ body{
 #gnb .btn-close>img{
     width: 30px;
 }
+#main_footer{
+    position: absolute;
+    left: 0; bottom: 0;
+}
 #main_footer img{
     width: 20px;
 }
@@ -35,10 +39,10 @@ body{
 }
 #content>.box>img{
     margin-top: 20px;
-    width: 300px;
+    width: 60%;
 }
 #content>.box>p{
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 #content>.box>ul>li{
@@ -52,8 +56,8 @@ body{
     border: 1px solid #000;
 }
 #synop_popup{
-    height: calc(100vh - 100px);
-    top: 51%;
+    height: 80%;
+    top: 52%;
     padding: 40px 20px;
 }
 #synop_popup>h2{
@@ -61,7 +65,7 @@ body{
     font-size: 20px;
 }
 #synop_popup>p{
-    font-size: 18px;
+    font-size: 16px;
 }
 #gallery #main>figure{
     width: 95%;
