@@ -4,6 +4,15 @@ body{
     background-size: cover;
 }#main_header{
     height: 60px;
+}#gnb{
+    right: -180px;
+    width: 180px;
+}
+#gnb>ul{
+    margin-top: 60px;
+}
+#gnb>ul>li{
+    width: 180px;
 }
 .btn-toggle{
     right: 20px; top: 20px;
@@ -72,9 +81,6 @@ body{
 }
 #gallery #main>figure{
     width: 95%;
-}
-#gallery #main>figure img{
-    padding-top: 100px;
 }
 #gallery #main>ul{
     width: 95%;
