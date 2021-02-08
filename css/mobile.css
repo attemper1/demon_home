@@ -67,6 +67,9 @@ body{
 #synop_popup>p{
     font-size: 16px;
 }
+#gallery #main{
+    height: 80%;
+}
 #gallery #main>figure{
     width: 95%;
 }
